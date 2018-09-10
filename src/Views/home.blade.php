@@ -16,6 +16,7 @@
 	<link href="{{ url('/vendor/xcloud/forumchatter/assets/css/my-chatter.css') }}" rel="stylesheet">
 @stop
 
+
 @section('content')
 
 <div id="chatter" class="chatter_home">
