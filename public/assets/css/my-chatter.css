@@ -1,0 +1,88 @@
+body{
+    background-color: #f1f1f1;
+}
+#chatter.my-chatter{
+    padding-top:107px;
+    padding-bottom:50px;
+}
+#chatter.my-chatter button.btn.btn-primary{
+    text-transform:uppercase;
+    color:#fff;
+    border-color:#3379b7;
+    background-color:#3379b7;
+    font-size:16px;
+    padding-top:0;
+    padding-bottom:0;
+    line-height:40px;
+}
+#chatter.my-chatter button.btn.btn-primary i{
+    margin-right:10px;
+}
+#chatter.my-chatter button.btn.btn-primary i::before{
+    color:#fff;
+}
+ #chatter.my-chatter .chatter_sidebar > a i.chatter-bubble::before{
+    color:#007bff;
+ }
+#chatter.my-chatter .chatter_sidebar ul li{
+    display:block;
+    clear:both;
+    width:100%;
+}
+#chatter.my-chatter .chatter_sidebar ul li a{
+    display:block;
+}
+#chatter.my-chatter .chatter_sidebar > a.all-discussion{
+    padding-bottom:10px;
+}
+#chatter.my-chatter .left-column .nav-pills > li > a .chatter-box{
+    border-radius:3px;
+    margin-top:-6px;
+}
+#chatter.my-chatter .chatter-alert *,
+#chatter.my-chatter .chatter-alert p,
+#chatter.my-chatter .chatter-alert ul li{
+    color:#fff;
+}
+#chatter.my-chatter .chatter-alert ul{
+    margin-bottom:0;
+}
+[class^="chatter-"]::before,
+[class*=" chatter-"]::before {
+    color:#fff;
+}
+#chatter.my-chatter .btn-success:focus,
+#chatter.my-chatter .btn-success.focus{
+    box-shadow: 0 0 0 0.2rem rgba(51, 121, 183, 0.5);
+}
+#chatter.my-chatter ul.discussions li a.discussion_list .chatter_post_actions p,
+#chatter.my-chatter ul.discussions li .chatter_posts .chatter_post_actions p{
+    color:#fff;
+    border-color:#3379b7;
+    background-color:#3379b7;
+}
+#chatter.my-chatter .chatter_count .chatter-bubble::before,
+#chatter.my-chatter ul.discussions li a.discussion_list .chatter_right .chatter_count,
+#chatter.my-chatter ul.discussions li .chatter_posts .chatter_right .chatter_count{
+    color:#3379b7;
+}
+#chatter.my-chatter  .chatter_body *{
+    font-family: 'Montserrat', sans-serif!important;
+    color:#474747!important;
+}
+#chatter.my-chatter  .chatter_body b,
+#chatter.my-chatter  .chatter_body strong{
+    font-weight:500;
+}
+#chatter.my-chatter  .chatter_body a{
+    color:#3379b7!important;
+}
+#chatter.chatter_home.my-chatter .chatter_middle p{
+    color:#474747;
+}
+#chatter.my-chatter ul.discussions li a.discussion_list .chatter_middle span.chatter_middle_details,
+#chatter.my-chatter ul.discussions li .chatter_posts .chatter_middle span.chatter_middle_details{
+    color:#474747;
+}
+
+

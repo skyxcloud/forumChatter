@@ -15,6 +15,7 @@
             }
         </style>
     @endif
+    <link href="{{ url('/vendor/xcloud/forumchatter/assets/css/my-chatter.css') }}" rel="stylesheet">
 @stop
 
 
